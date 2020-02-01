@@ -22,7 +22,7 @@
   "dependencies": {
     "cac": "^5.0.15",
     "chalk": "^2.4.1",
-    "conf": "^2.0.0",
+    "conf": "^4.0.1",
     "cross-spawn": "^6.0.5",
     "download-git-repo": "^1.1.0",
     "fs-extra": "^7.0.0",
@@ -38,7 +38,7 @@
     "parse-package-name": "^0.1.0",
     "resolve-from": "^4.0.0",
     "strip-ansi": "^5.0.0",
-    "update-notifier": "^2.5.0",
+    "update-notifier": "^4.0.0",
     "wcwidth": "^1.0.1",
     "yarn-global": "^1.1.0"
   },
