@@ -15,7 +15,9 @@
   ],
   "scripts": {
     "test": "npm run lint && ava",
-    "lint": "xo"
+    "lint": "xo",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
@@ -40,7 +42,8 @@
     "strip-ansi": "^5.0.0",
     "update-notifier": "^2.5.0",
     "wcwidth": "^1.0.1",
-    "yarn-global": "^1.1.0"
+    "yarn-global": "^1.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ava": "^0.25.0",
@@ -95,5 +98,6 @@
     "simple",
     "easy",
     "workflow"
-  ]
+  ],
+  "snyk": true
 }
