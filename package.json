@@ -32,7 +32,7 @@
     "joycon": "^2.1.2",
     "jstransformer": "^1.0.0",
     "jstransformer-ejs": "^0.2.0",
-    "majo": "^0.6.2",
+    "majo": "^0.9.0",
     "micromatch": "^3.1.10",
     "ora": "^3.0.0",
     "parse-package-name": "^0.1.0",
